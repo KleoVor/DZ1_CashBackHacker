@@ -14,7 +14,7 @@ public class CashbackHackServiceTest {
 
         //выполнение целевого действия
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
 
         //сравнение ожидаемого результата и факического
 

@@ -56,21 +56,21 @@ public class CashbackHackServiceTest {
 
     }
 
-    @Test
-    void calculateAmount1() {
-        // подготовка, будем "ронять"
-
-        CashbackHackService service = new CashbackHackService();
-        int amount = 1000;
-
-        //выполнение целевого действия
-        int actual = service.remain(amount);
-        int expected = 999;
-
-        //сравнение ожидаемого результата и факического
-
-        assertEquals(actual, expected);
-
-    }
+//    @Test
+//    void calculateAmount1() {
+//        // подготовка, будем "ронять"
+//
+//        CashbackHackService service = new CashbackHackService();
+//        int amount = 1000;
+//
+//        //выполнение целевого действия
+//        int actual = service.remain(amount);
+//        int expected = 999;
+//
+//        //сравнение ожидаемого результата и факического
+//
+//        assertEquals(actual, expected);
+//
+//    }
 
 }

@@ -3,16 +3,17 @@ package ru.netology.service;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+
 public class CashbackHackServiceTestJunit4 {
 
     @Test
-   public void amount900(){
+    public void amount900() {
 
         // готовим систему
-       CashbackHackService service = new CashbackHackService();
-       int amount = 900;
+        CashbackHackService service = new CashbackHackService();
+        int amount = 900;
 
-       // выполняем целевое действие
+        // выполняем целевое действие
 
         int actual = service.remain(amount);
         int expected = 100;
@@ -24,7 +25,7 @@ public class CashbackHackServiceTestJunit4 {
     }
 
     @Test
-    public void amount1001(){
+    public void amount1001() {
 
         // готовим систему
         CashbackHackService service = new CashbackHackService();
@@ -42,7 +43,7 @@ public class CashbackHackServiceTestJunit4 {
     }
 
     @Test
-    public void amount999(){
+    public void amount999() {
 
         // готовим систему
         CashbackHackService service = new CashbackHackService();
@@ -60,9 +61,9 @@ public class CashbackHackServiceTestJunit4 {
     }
 
     @Test
-    public void amount1000(){
+    public void amount1000() {
 
-        // готовим систему
+        // готовим систему, тест будет падать!
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
